@@ -14,20 +14,24 @@
 
 function countPositivesSumNegatives(input) {
     if (input == null || input.length == 0)
-      return [];
-    
+        return [];
+
     var positive = 0;
     var negative = 0;
-    
-    for (var i=0, l=input.length; i<l; ++i)
-    {
-      if (input[i] > 0)
-        ++ positive;
-      else
-        negative += input[i];
+
+    for (var i = 0, l = input.length; i < l; ++i) {
+        console.log(input[i])
+        if (input[i] > 0)
+            ++positive;
+        else
+            negative += input[i];
     }
-    
+
     return [positive, negative];
+
 }
 
-//Couldnt solve byself, had to look at solution. Need to come back and work on more. 
+let thisArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]
+
+console.log(countPositivesSumNegatives(thisArr))
+    //Couldnt solve by myself, had to look at solution. Need to come back and study on more.
