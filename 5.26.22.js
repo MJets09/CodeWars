@@ -20,14 +20,3 @@ function maps(x) {
 //Try one more
 
 console.log(1 * -1)
-
-function hero(bullets, dragons) {
-
-    if (bullets % dragons === 2) {
-        return true
-    } else {
-        return false
-    }
-
-
-}

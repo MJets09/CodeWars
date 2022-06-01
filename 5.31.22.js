@@ -4,9 +4,14 @@
 
 const reverseSeq = n => {
     let arr = [];
-      for (let i=n; i>0; i--) {
+    for (let i = n; i > 0; i--) {
         arr.push(i);
-        } return arr;
-    };
+    }
+    return arr;
+};
 
-    
+//What was the part that you was stuck on?
+// Figure it was the opposite of the usual loop. Couldnt get it to past, needed to pass results into an Array. Push method required.
+
+//What did you learn?
+//You still need to read cleary on the directions, slow down and break down code.
