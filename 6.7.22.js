@@ -13,3 +13,8 @@ function fakeBin(x) {
 
 //What did you learn?
 //Forgot about the map method. Need to read more into array methods.
+
+
+function binA(x){
+    return  x.split('').map(x => x < 5 ? 0:1).join('')
+}
